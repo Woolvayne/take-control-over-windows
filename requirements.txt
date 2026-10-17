@@ -1,0 +1,9 @@
+# Python dependencies for windows-mcp
+mcp>=1.0.0
+pyautogui>=0.9.54
+Pillow>=10.0.0
+psutil>=5.9.0
+pywin32>=306; sys_platform == "win32"
+pyperclip>=1.8.2
+click>=8.1.0
+pydantic>=2.0.0
