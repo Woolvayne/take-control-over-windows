@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "windows-control": {
+      "command": "python",
+      "args": ["-m", "windows_mcp"],
+      "cwd": "%USERPROFILE%/windows-mcp",
+      "env": {
+        "MCP_SCREENSHOT_DIR": "%USERPROFILE%/Pictures/MCP-Screenshots"
+      }
+    }
+  }
+}
